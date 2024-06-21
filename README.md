@@ -9,7 +9,8 @@ An Auto Insurance company in the USA is facing issues in retaining its customers
 ### 3.Statistical Analysis techniques like OLS for numerical and Mann–Whitney U and also Kruskal Wallis test for the categorical variables were performed to find the significance of the features with respect to the target.
 ### 4.Supervised Regression Models like Linear Regression, Ridge Regression, Lasso Regression, DecisionTree Regression, Random Forest Regression and Adaboost Regression.
 ### 5.Using GridSearchCV with Random Forest Regression gave the best RMSE and R^2 score values
-#**Dataset Description**
+
+# **Dataset Description**
 The dataset represents Customer lifetime value of an Auto Insurance Company in the United States, it includes over 24 features and 9134 records to analyze the lifetime value of Customer.
 
 
