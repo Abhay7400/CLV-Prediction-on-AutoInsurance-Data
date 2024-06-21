@@ -15,22 +15,12 @@ The dataset represents Customer lifetime value of an Auto Insurance Company in t
 
 
 
-## **Evaluation Metric**
-RMSE and R^2 score were chosen as the metric for the models.
-Supervised Models Used
-Model	R^2 Score	RMSE
-Linear Regression	0.25	0.5772
-Ridge Regression	0.21	0.5925
-Lasso Regression	0.19	0.5992
-DecisionTree Regression	0.84	0.2668
-RandomForest Regression	0.90	0.2047
-Adaboost Regression	0.89	0.2181
-RandomForest with GridSearchCV	0.91	0.1956
-Final Model
+
+## Final Model
 By comparing RMSE and R^2 score results of models and then we choose the best model as the Random Forest with GridSearchCV, having the best evaluation scores.
 
-Conclusion
-Overall we can see that No of policies, Monthly Premium auto, Total Claim amount, Months Since Policy Inception, Income , Months Since Last Claim, Number of Open Complaints, Coverage_Extended,vEmploymentStatus_Employed and Renew Offer Type_Offer2 are the important features in predicting the Customer Lifetime Value.
-The customers having more number of policies with high monthly premium will add more value to company.
-Ironically being an auto insurance company, the type of vehicle or size does not have an impact on the CLV prediction.
-The insurance agents should start increasing their policy advertisement for the customers who have more no. of policies, which is the major feature in predicting the CLV.
+## Conclusion
+#### 1.Overall we can see that No of policies, Monthly Premium auto, Total Claim amount, Months Since Policy Inception, Income , Months Since Last Claim, Number of Open Complaints, Coverage_Extended,vEmploymentStatus_Employed and Renew Offer Type_Offer2 are the important features in predicting the Customer Lifetime Value.
+#### 2.The customers having more number of policies with high monthly premium will add more value to company.
+#### 3.Ironically being an auto insurance company, the type of vehicle or size does not have an impact on the CLV prediction.
+#### 4.The insurance agents should start increasing their policy advertisement for the customers who have more no. of policies, which is the major feature in predicting the CLV.
